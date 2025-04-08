@@ -1,4 +1,14 @@
 #  Jenkins CI/CD Pipeline for Spring PetClinic App (with Docker)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+# DAY-2-JENKINS-CI-CD-PIPELINE
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Repo Size](https://img.shields.io/github/repo-size/WhereareyouRAJ/DAY-2-JENKINS-CI-CD-PIPELINE)
+![Last Commit](https://img.shields.io/github/last-commit/WhereareyouRAJ/DAY-2-JENKINS-CI-CD-PIPELINE)
+
+
+
+
 
 This project demonstrates a complete **CI/CD pipeline using Jenkins** to:
 - Automatically trigger on each commit ✅
@@ -20,10 +30,9 @@ This project demonstrates a complete **CI/CD pipeline using Jenkins** to:
 
 <details> 
 
-<summary>Click to expand</summary>
+<summary>📁 Project Folder Structure</summary>
 
 ``` 
-
 DAY-2-JENKINS-CI-CD-PIPELINE/
 ├── .mvn/
 ├── src/
@@ -43,7 +52,6 @@ DAY-2-JENKINS-CI-CD-PIPELINE/
 ├── mvnw.cmd
 └── pom.xml
 └── screenshots/ 
-
 ``` 
 </details>
 
@@ -73,6 +81,16 @@ It automatically pulls the latest code and rebuilds the app.
 
 4. Application succesfully hosted
 ![alt text](<Screenshot 2025-04-08 161538.png>)
+
+
+## 🧪 How to Run Locally
+
+```bash
+git clone https://github.com/WhereareyouRAJ/DAY-2-JENKINS-CI-CD-PIPELINE.git
+cd DAY-2-JENKINS-CI-CD-PIPELINE
+docker build -t spring-petclinic-app .
+docker run -d -p 8090:8080 spring-petclinic-app
+
 
 # 👨‍💻 Author
 
