@@ -42,6 +42,7 @@ DAY-2-JENKINS-CI-CD-PIPELINE/
 ├── mvnw
 ├── mvnw.cmd
 └── pom.xml
+└── screenshots/ 
 
 ``` 
 </details>
@@ -74,11 +75,11 @@ It automatically pulls the latest code and rebuilds the app.
 ![alt text](<Screenshot 2025-04-08 161538.png>)
 
 # 👨‍💻 Author
+
 Raj
 Learning DevOps, dreaming big, and building pipelines like a pro.
-🔗 GitHub Profile
 
-🌟 Show Your Support
-If this helped you or inspired you, leave a ⭐ on the repo!
+# 🌟 Show Your Support
+ If this helped you or inspired you, leave a ⭐ on the repo!
 
 
