@@ -1,37 +1,28 @@
-pipeline { 
+pipeline {
     agent any
-
-     stages {
+    triggers {
+        pollSCM('* * * * *')
+    }
+    stages {
         stage('Build') {
             steps {
-                echo 'Building the application...'
-                sh    ' sudo docker build -t spring-petclinic-app .'
+                echo 'Simulating build...'
             }
-
         }
-       
         stage('Deploy') {
             steps {
-                echo 'Deploying the container...'
-                 sh '''
-                 docker stop spring-app || true
-                    docker rm spring-app || true
-                    docker run -d --name spring-app -p 8090:8080 spring-petclinic-app
-                    '''
-                echo 'Container deployed successfully!'
-         
+                echo 'Simulating deploy...'
             }
         }
         stage('Test') {
             steps {
-                echo  'Runnning Tests..'
-                sh 'curl -s http://localhost:8090 | grep UP'
+                echo 'Simulating test...'
             }
         }
     }
     post {
         always {
-            echo 'This will always run after the stages.'
+            echo 'Pipeline finished.'
         }
     }
 }
