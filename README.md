@@ -90,14 +90,17 @@ git clone https://github.com/WhereareyouRAJ/DAY-2-JENKINS-CI-CD-PIPELINE.git
 cd DAY-2-JENKINS-CI-CD-PIPELINE
 docker build -t spring-petclinic-app .
 docker run -d -p 8090:8080 spring-petclinic-app
+```
 
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 Raj
 Learning DevOps, dreaming big, and building pipelines like a pro.
 
-# 🌟 Show Your Support
- If this helped you or inspired you, leave a ⭐ on the repo!
+## 🌟 Show Your Support
+ If this project helped you, inspired you, or you just liked the idea, consider giving it a ⭐ on the repo.
+Your support keeps the DevOps fire burning! 🔥
 
+## Thank You
 
