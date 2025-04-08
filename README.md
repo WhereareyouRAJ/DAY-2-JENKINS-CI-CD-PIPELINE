@@ -42,8 +42,7 @@ DAY-2-JENKINS-CI-CD-PIPELINE/
 ├── mvnw
 ├── mvnw.cmd
 └── pom.xml
-├── screenshots/
-│   └── pipeline-success.png
+
 ``` 
 </details>
 
@@ -57,11 +56,22 @@ It automatically pulls the latest code and rebuilds the app.
 
 
 # 📌 Notes
-This setup is run and tested in KodeKloud Jenkins Playground.
+- This setup is run and tested in KodeKloud Jenkins Playground.
 
-Docker is pre-installed, and Jenkins has full permissions
+- Docker is pre-installed, and Jenkins has full permissions
 
+# ✅ Output Proof 
+1. Job created
+![alt text](<Screenshot 2025-04-08 161823.png>)
 
+2. Build successfully 
+![alt text](<Screenshot 2025-04-08 161842.png>)
+
+3. Console output 
+![alt text](<Screenshot 2025-04-08 162054-1.png>)
+
+4. Application succesfully hosted
+![alt text](<Screenshot 2025-04-08 161538.png>)
 
 # 👨‍💻 Author
 Raj
@@ -72,4 +82,3 @@ Learning DevOps, dreaming big, and building pipelines like a pro.
 If this helped you or inspired you, leave a ⭐ on the repo!
 
 
-![alt text](<Screenshot 2025-04-08 162054.png>)
