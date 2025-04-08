@@ -1,9 +1,10 @@
 pipeline { 
     agent any
-    stages {
-        triggers {
+
+    triggers {
             pollSCM('* * * * *') // Poll SCM every 1 minutes
-        }
+     }
+     stages {
         stage('Build') {
             steps {
                 echo 'Building the application...'
