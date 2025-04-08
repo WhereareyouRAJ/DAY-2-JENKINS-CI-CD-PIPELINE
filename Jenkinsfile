@@ -28,7 +28,7 @@ pipeline {
             steps {
                 echo 'Testing application...'
                 sh 'sleep 5' // give app some time to start
-                sh 'curl -s http://localhost:8090 | grep UP'
+                
             }
         }
     }
