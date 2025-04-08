@@ -6,11 +6,11 @@ WORKDIR /app
 COPY pom.xml . 
 COPY src ./src
 
-RUN mvn clean package -Dskiptests
+RUN mvn clean package -DskipTests
 
 # Stage 2: Run the app using JDK
 
-From eclipse-temurin:17-jdk
+FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
