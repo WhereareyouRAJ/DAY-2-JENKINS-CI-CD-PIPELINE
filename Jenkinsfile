@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                sh    ' docker build -t spring-petclinic-app .'
+                sh    ' sudo docker build -t spring-petclinic-app .'
             }
 
         }
